@@ -18,7 +18,7 @@ metadata:
   namespace: kube-system
   uid: eea0273c-8df3-4176-8901-b17003f83095 #don't delete this
 
-## mapUsers: |
+## mapUsers:
 ## - groups: - system: name of the Role which we created in rbac.yaml
 ## userarn: you need to give your ARN for IAM user from AWS console.
 ## username: name of the IAM user created for the EKS cluster describe access.
