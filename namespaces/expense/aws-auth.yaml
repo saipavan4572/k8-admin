@@ -4,7 +4,7 @@ data:
     - groups:
       - system:bootstrappers
       - system:nodes
-      rolearn: arn:aws:iam::315069654700:role/eksctl-expense-1-nodegroup-expense-NodeInstanceRole-QpZ8MlrLGAdG
+      rolearn: arn:aws:iam::533267158693:role/eksctl-expense-nodegroup-expense-m-NodeInstanceRole-ccFxIkyPzniS
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
     - groups:
