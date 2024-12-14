@@ -8,7 +8,7 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
     - groups:
-      - system: expense-pod-reader
+      - expense-pod-reader
       userarn: arn:aws:iam::533267158693:user/EKSClusterRBACUser
       username: EKSClusterRBACUser
 kind: ConfigMap
