@@ -21,8 +21,8 @@ metadata:
 subjects:
 # You can specify more than one "subject"
 - kind: User
-  name: harish # "name" is case sensitive
-  # here harish is an IAM user created in AWS console.
+  name: EKSClusterRBACUser # "name" is case sensitive
+  # here EKSClusterRBACUser is an IAM user created in AWS console.
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   # "roleRef" specifies the binding to a Role / ClusterRole
@@ -55,7 +55,7 @@ metadata:
   name: expense-cluster-reader
 subjects:
 - kind: User
-  name: harish # Name is case sensitive # here harish is an IAM user created in AWS console, replace with your IAM user
+  name: EKSClusterRBACUser # Name is case sensitive # here EKSClusterRBACUser is an IAM user created in AWS console, replace with your IAM user
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
