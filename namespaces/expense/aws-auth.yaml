@@ -9,8 +9,8 @@ data:
   mapUsers: |
     - groups:
       - system: expense-pod-reader
-      userarn: arn:aws:iam::315069654700:user/harish
-      username: harish
+      userarn: arn:aws:iam::533267158693:user/EKSClusterRBACUser
+      username: EKSClusterRBACUser
 kind: ConfigMap
 metadata:
   creationTimestamp: "2024-07-05T01:35:42Z"
